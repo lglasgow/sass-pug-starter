@@ -58,5 +58,5 @@ module.exports = function(grunt) {
   // define the tasks
   grunt.registerTask( 'build', [ 'sass', 'pug' ]);
   grunt.registerTask( 'dev', [ 'connect', 'watch' ]);
-  grunt.registerTask( 'default', [ 'build', 'dev' ]);
+  grunt.registerTask( 'all', [ 'build', 'dev' ]);
 };
