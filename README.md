@@ -16,7 +16,7 @@ grunt build
 Finally execute this to watch your files for changes and to start the server:
 
 ```
-grunt watch
+grunt all
 ```
 
 Please do not check into this respository as it is a base project and needs to be used across many projects.
